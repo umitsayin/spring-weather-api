@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:weatherdb
+  h2:
+    console:
+      enabled: true
+resilience4j:
+  rate-limiter:
+    instances:
+      weather:
+        limit-for-period: 10
+        limit-refresh-period: 1m
+        timeout-duration: 10s

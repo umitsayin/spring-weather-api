@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  app:
+    image: weather:latest
+    restart: always
+    build: ./
+    ports:
+      - "9595-9597:8080"
+    deploy:
+      mode: replicated
+      replicas: 3
