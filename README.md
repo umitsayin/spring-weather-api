@@ -2,7 +2,7 @@
 
 This project is a weather REST API designed with Spring Boot.
 
-![image](https://github.com/umitsayin/spring-weather-api/assets/69505917/24aa9f99-7f9b-4d0a-8c68-a3614daeee87)
+![image](https://github.com/umitsayin/spring-weather-api/assets/69505917/4e99025a-140a-4921-ac34-c36f22870abc)
 
 ##Technologies used:
 Java 17
